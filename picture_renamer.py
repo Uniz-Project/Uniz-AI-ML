@@ -5,7 +5,7 @@ import os, glob
 def rename_file():
     count = 1
     dir_name = input('번호처리 할 디렉토리명을 입력하시오: ')
-    current_dir_path = '/Users/YB/Google 드라이브/AI_standard'
+    current_dir_path = '[your_current_directory includes png files folder]'
     rename_files_path = current_dir_path + '/' + dir_name
 
     # 파일 이름을 변경하기 위해 path 등록
